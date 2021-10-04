@@ -1,0 +1,14 @@
+version: 1
+endpoint: GET
+metadata:
+  title: Get machine status
+  tags:
+    - machines
+    - status
+language: rql
+codeFile: ./status.rql
+computeClass: normal
+computeLimitSeconds: 10
+cacheSizeMB: 10
+format: json
+refreshSeconds: 30
