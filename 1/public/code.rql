@@ -1,8 +1,3 @@
-data := [
- (a: 1, b: "hello"),
- (a: 2, b: "world")
-] ;
-
 foo(n: int) := {
   select * from data where a = n
 }
