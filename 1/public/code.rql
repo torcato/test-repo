@@ -5,6 +5,6 @@ data := [
 
 foo(n: int) := {
   select * from data where a = n
-}
+};
 
 data
