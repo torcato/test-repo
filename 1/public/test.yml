@@ -1,9 +1,10 @@
-version: 1
+raw: 0.9
 endpoint: GET
-language: rql
+code: rql
 codeFile: ./code.rql
-computeClass: normal
-computeLimitSeconds: 10
-cacheSizeMB: 10
+declaration: foo
 format: json
-refreshSeconds: 30
+security:
+  public: true
+computeClass: normal
+computeLimitSeconds: 30
