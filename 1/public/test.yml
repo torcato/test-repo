@@ -1,7 +1,7 @@
 version: 1
 endpoint: GET
 language: rql
-codeFile: ./status.rql
+codeFile: ./code.rql
 computeClass: normal
 computeLimitSeconds: 10
 cacheSizeMB: 10
