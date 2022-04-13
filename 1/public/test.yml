@@ -1,10 +1,5 @@
 version: 1
 endpoint: GET
-metadata:
-  title: Get machine status
-  tags:
-    - machines
-    - status
 language: rql
 codeFile: ./status.rql
 computeClass: normal
