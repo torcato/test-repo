@@ -1,3 +1,11 @@
+data := [
+  (a: 1, b: "Hello"),
+  (a: 2, b: "World")
+
+]
+
+
+
 foo(n: int) := {
   select * from data where a = n
 }
