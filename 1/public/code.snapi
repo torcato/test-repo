@@ -1,7 +1,7 @@
 data() = [
  {a: 1, b: "hello"},
  {a: 2, b: "world"}
-] ;
+] 
 
 foo(n: int) = List.Filter(data(), x -> x.a == n)
   
