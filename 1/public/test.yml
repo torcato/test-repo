@@ -1,8 +1,7 @@
 raw: 0.9
 endpoint: GET
-code: snapi
-codeFile: ./code.snapi
-declaration: foo
+code: sql
+codeFile: ./code.sql
 format: json
 security:
   public: true
